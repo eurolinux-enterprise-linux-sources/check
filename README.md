@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - check 
+# ELS - Enterprise Linux/EuroLinux Sources - check
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.
