@@ -1,6 +1,6 @@
 Name:           check
 Version:        0.9.9
-Release:        3%{?dist}
+Release:        5%{?dist}
 Summary:        A unit test framework for C
 Source0:        http://downloads.sourceforge.net/check/%{name}-%{version}.tar.gz
 # Fix some formatted printing bugs.  Sent upstream 22 Oct. 2012.
@@ -99,6 +99,12 @@ fi
 %{_libdir}/libcheck.a
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.9.9-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.9.9-4
+- Mass rebuild 2013-12-27
+
 * Mon Mar 25 2013 Jerry James <loganjerry@gmail.com> - 0.9.9-3
 - Enable aarch64 support (bz 925218)
 
